@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>itz rahul – Short Video Editor Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="profile">
+    <img src="image/1000036664[1].jpg" alt="Rahul Profile" class="profile-img">
+    <h2>Hi, I'm Rahul.</h2>
+    <p class="bio">A passionate video editor with 1 year and 200+ videos of experience creating high-impact content for Instagram Reels, YouTube Video, YouTube Shorts, and more. I specialize in motion graphics, creative storytelling, and editing trends that help your videos grab attention fast.</p>
+  <div class="info">
+    <div class="location">📍 India,</div>
+    <div class="language">🌐 English/Hindi</div>
+  </div>
+    <div class="social-icons">
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="40">
+      </a>
+      
+      <a href="https://wa.me/yourwhatsapplink" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="40">
+      </a>
+      
+      <a href="https://discord.com/invite/yourserver" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord" width="40">
+      </a>
+      
+      <a href="https://youtube.com/yourchannel" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733646.png" alt="YouTube" width="40">
+      </a>
+      
+      <a href="mailto:your@email.com">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="40">
+      </a>
+      
+    </div>
+  </section>
+
+  <section id="why-choose">
+    <h2>🎬 Why Choose Me as Your Video Editor?</h2>
+    <p>Motion Graphics | 3D Animation | Documentary Editing</p>
+    <p>If you hire me, I will enhance your content and help make your video go viral.<br>
+    I will provide you with high-quality videos. I've 1 year and 200+ videos of experience.</p>
+  </section>
+
+  <section id="videos">
+    <h2>📸 My Edits in Action</h2>
+    <div class="video-gallery">
+      <div class="row">
+      <video class="Showreel" src="video/Itz Rahul Showreel.mp4" autoplay loop controls></video>
+      <video src="video/20 Sec Sample Video.mp4" controls class="small-video"></video>
+      <video src="video/3D iPhone 16 Ads.mp4" controls></video>
+    </div>
+    <div class="center-row">
+      <video src="video/Video Editing Hard Speech.mp4" controls></video>
+      <video src="video/Virat Kohli Projects Final.mp4" controls></video>
+    </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>✨ Hiring Benefits</h2>
+    <ul>
+      <li>✦ High Quality Edit</li>
+      <li>✦ Trend Video Style</li>
+      <li>✦ Delivery Fast & Before Deadline</li>
+    </ul>
+  </section>
+
+  <section id="clients">
+    <h2>🎥 Work With</h2>
+    <div class="grid">
+      <div class="card">
+          <img src="image/trader saket.jpg" alt="Client Reel 1">
+        <a href="https://www.instagram.com/reel/DLFRDuopuKq/?utm_source=ig_web_copy_link&igsh=MW5pbjBheXd0Mjk4bQ=="><p><strong>@trader_saket_fx</strong></p></a>
+        
+      </div>
+      <div class="card">
+          <img src="image/yogadelight.jpg" alt="Client Reel 2">
+        <a href="https://www.instagram.com/reel/DK97aO7BTK8/?utm_source=ig_web_copy_link&igsh=c2VkbDdzZjM3MDgz"><p><strong>@_yogadelight</strong></p></a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp: <a href="https://wa.link/emid0p"><strong>8889484701</strong></a></p>
+    <p>Email: <strong>itzrahul@email.com</strong></p>
+    <p>Instagram: <a href="https://www.instagram.com/unix.ae_?utm_source=ig_web_button_share_sheet&igsh=MTU4ODl1OW4weDI0Yw=="><strong>@unix.ae_</strong></a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 itz rahul.</p>
+  </footer>
+
+  <script>
+    const video = document.querySelector(".Showreel");
+  
+    // Check if user is on mobile
+    const isMobile = window.innerWidth >= 425;
+  
+    if (isMobile) {
+      video.removeAttribute("loop"); // Remove loop on mobile
+    } else {
+      video.setAttribute("loop", true); // Make sure it's looping on desktop
+    }
+  </script>
+  
+  
+</body>
+</html>
